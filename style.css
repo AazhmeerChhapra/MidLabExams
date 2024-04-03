@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+}
+.background_img{
+
+}
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /*Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(96, 112, 255, 0.9); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+#overlay a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  display: block;
+  font-size: 32px;
+  line-height: 44px;
+}
+#overlay .icon{
+float: right;
+}
+#overlay .icon i {
+  color: white;
+  
+}
+.overlay-links{
+  margin: 53px 27px;
+}
+.intro>p {
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 93px 18px 0 0px;
+  color: #F43706;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+h1{
+    background-image: url("./assets/images/text-background.jpg"); /* Replace 'your-background-image.jpg' with your image URL */
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    background-clip: text;
+    color: transparent; /* Hide the text */
+    display: inline; 
+}
+
+header {
+  background-color: white;
+  width: 375px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 375px;
+  height: 48px;
+  padding-top: 48px;
+  align-items: center;
+}
+
+.nav-links {
+  justify-content: space-between;
+  display: none;
+}
+
+.nav-links li {
+  list-style: none; /* Remove the dots */
+  margin-right: 5%;
+}
+.para_bg{
+    background-color: #F7f7f7;
+    border: 5px solid #fff;
+    width: 100%;
+}
+.description .para_bg p{
+    font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 0;
+  padding: 18px 10px 10px 11px;
+  width: 90%;
+}
+.logo {
+  width: 76px;
+  height: 20px;
+  color: #6070ff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 9px 18px;
+}
+.logo img{
+    display: none;
+}
+
+.icon {
+  height: 12px;
+  top: 6px;
+  left: 3px;
+  margin: 6px 18px;
+  color: #6070ff;
+}
+
+.headings {
+  
+  width: 375px;
+  background: url("./assets/images/mobile_intro_bg.png") no-repeat;
+
+  height: 610px;
+  background-repeat: no-repeat;
+
+}
+
+.description {
+  width: 327px;
+  height: 146px;
+  margin-top: 0;
+}
+
+.description p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-top: 0;
+  padding: 3px 18px 0 29px;
+  width: 327px;
+}
+
+a {
+  color: #7f8cff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.Time{
+    margin-top: 68px;
+}
+
+.Time h1{
+    color: #868686;
+}
+
+.Time h3{
+    color: #868686;
+    font-size: 24px;
+    font-weight: 400;
+}
